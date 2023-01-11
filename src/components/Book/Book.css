@@ -1,0 +1,119 @@
+.Tabs {
+    width: 80%;
+    margin: 3.5rem auto 1.5rem;
+    color: #E8F0F2;
+    border-radius: 2rem;
+    @media (max-width: 769px) {
+      padding: 2rem 0;
+    }
+  
+}
+
+  ul.navs {
+    width: 60%;
+    margin-left: 12rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+  ul.navs li {
+    width: 50%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+  ul.navs li:nth-child(2) {
+    border-radius: 0;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+  ul.navs li:hover {
+    background: rgba(50, 224, 196, 0.15);
+  }
+  ul.navs li.active {
+    background: #39A2DB;
+  }
+  
+  .outlet{
+    min-height: 500px;
+  }
+
+
+
+@media (max-width: 1025px) {
+
+    
+}
+
+
+
+@media (max-width: 923px) {
+  
+
+
+}
+
+@media (max-width: 821px) {
+  
+
+
+}
+@media (max-width: 617px) {
+  
+
+
+}
+
+@media (max-width: 592px) {
+  
+
+}
+
+
+@media (max-width: 542px) {
+  
+
+
+}
+
+@media (max-width: 415px) {
+
+
+}
+
+@media (max-width: 377px) {
+
+
+}
+
+
+
+
+@media (max-width: 310px) {
+
+  
+}
+
+
+@media (max-width: 280px) {
+
+  ul.navs{
+    /* width: 2rem; */
+    margin-left: 0%;
+    font-size: 0.7rem;
+  }
+  ul.navs li{
+    /* width: 2rem; */
+    padding: 0.6rem;
+    overflow:scroll;
+  }
+  
+}

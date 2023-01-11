@@ -1,0 +1,75 @@
+.carouse{
+    width: 70%;
+    margin-left: 14.2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1025px) {
+    
+    .carouse{
+        margin-left: 11rem;
+    }
+
+}
+
+
+
+@media (max-width: 923px) {
+    
+    .carouse{
+        margin-left: 8.5rem;
+    }
+
+}
+
+@media (max-width: 821px) {
+    
+    .carouse{
+        margin-left: 8.5rem;
+    }
+
+}
+
+@media (max-width: 592px) {
+    
+    .carouse{
+        margin-left: 5rem;
+    }
+
+}
+
+
+@media (max-width: 542px) {
+    
+    .carouse{
+        margin-left: 4.5rem;
+    }
+
+}
+
+@media (max-width: 415px) {
+    
+    .carouse{
+        margin-left: 4rem;
+    }
+
+}
+
+@media (max-width: 377px) {
+    
+    .carouse{
+        margin-left: 4rem;
+    }
+
+}
+
+
+
+
+@media (max-width: 285px) {
+    
+    .carouse{
+        margin-left: 3rem;
+    }
+
+}
