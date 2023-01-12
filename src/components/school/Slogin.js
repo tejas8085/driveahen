@@ -18,12 +18,16 @@ const navigate=useNavigate()
 const [email, setemail] = React.useState("");
 const [password, setpassword] = React.useState("");
 const handlesub=async()=>{
+  if(email === "admin" && password === "admin"){
+    navigate('/admin',{state:{id:1}});
+  }
   const q = query(collection(db, "school"), where("email", "==", email));
   const querySnapshot = await getDocs(q);
   querySnapshot.forEach((doc) => {
     // doc.data() is never undefined for query doc snapshots
+
     if(doc.data().password === password){
-      navigate('/school',{state:{id:doc.data().id}});
+      navigate('/school/dashboard',{state:{id:doc.data().id}});
     }
 
   });

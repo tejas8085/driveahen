@@ -29,8 +29,8 @@ export default function Contact() {
     <div>
       <Navbar></Navbar>
       <div class="background">
-  <div class="container">
-    <div class="screen">
+  <div class="contaiiner">
+    <div class="sccreen">
       <div class="screen-body">
         <div class="screen-body-item left">
           <div class="app-title">

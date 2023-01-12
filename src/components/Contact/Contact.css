@@ -9,13 +9,13 @@ button, input {
     min-height: 100vh;
   }
   
-  .container {
+  .contaiiner {
     flex: 0 1 700px;
     margin: auto;
     padding: 10px;
   }
   
-  .screen {
+  .sccreen {
     position: relative;
     background: #3e3e3e;
     border-radius: 15px;

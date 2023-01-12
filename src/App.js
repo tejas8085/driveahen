@@ -11,6 +11,8 @@ import Book from './components/Book/Book';
 import Cart from './components/Cart/Cart';
 import Slogin from './components/school/Slogin';
 import Sprofile from './components/school/Sprofile';
+import Admin from './components/school/Admin';
+import Data from './components/school/Data';
 
 
 function App() {
@@ -34,7 +36,9 @@ function App() {
                 <Route path='/cart' element={<Cart/>} />
                 </Route>
                 <Route path='/school/login' element={<Slogin/>} />
-                <Route path='/school/login' element={<Sprofile/>} />
+                <Route path='/school/dashboard' element={<Sprofile/>} />
+                <Route path='/admin' element={<Admin/>} />
+                <Route path='/admin/school' element={<Data/>} />
                 {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
       </BrowserRouter>

@@ -4,12 +4,12 @@ import { collection, query, where, getDocs } from "firebase/firestore";
 import db from "../../firebase"
 import Bcard from './Bcard';
 import Blicence from './Blicence';
-import Snav from './Snav';
+import "./fg.css"
 
-export default function Sprofile() {
-  const location = useLocation();
-  const navigate=useNavigate();
-  const id=location.state.id;
+export default function Data() {
+  const navigate=useNavigate()
+  const location = useLocation()
+  const id = location.state.id
   const [loading, setLoading] = useState(true);
   const [currentPost, setCurrentPost] = useState([]);
   const [currentPostt, setCurrentPostt] = useState([]);
@@ -39,15 +39,16 @@ export default function Sprofile() {
 
     fetchData();
        // eslint-disable-next-line react-hooks/exhaustive-deps
-},[]) 
+  },[]) 
   const handlelg=()=>{
     navigate('/school/login')
   }
-
   return (
     <div>
-        <Snav></Snav>
-        <h3 className='headings'>Bookings</h3>
+        <div className='mainh'>
+            <h4>AHEN ADMIN DASHBOARD</h4>
+        </div>
+         <h3 className='headings'>Bookings</h3>
         <div className='bookg'>
         {!loading && currentPost.length===0 ? (<h3>No Bookings Yet!</h3>) :
             
