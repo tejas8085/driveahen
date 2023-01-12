@@ -52,7 +52,6 @@ export default function Footer() {
             <span>About the company</span>
             Ahen is a driving class booking application where you can book a driving session in 3 taps and learn driving with various services like home pickup and drop and many more.
         </p>
-
     </div>
 
     </footer>

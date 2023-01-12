@@ -5,6 +5,7 @@ import { onAuthStateChanged } from 'firebase/auth'
 import {auth} from "../../firebase"
 import {  useNavigate } from 'react-router-dom'
 import Footer from "../Footer/Footer"
+import toast from 'react-hot-toast';
 
 
 export default function Profile() {
@@ -14,6 +15,7 @@ export default function Profile() {
   const [email,Setemail]=useState("");
   const handle=()=>{
     auth.signOut()
+    toast.success("Logged Out Successfully")
     navigate('/')
   }
   useEffect(() => {

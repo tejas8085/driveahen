@@ -6,6 +6,7 @@ import { auth } from "../../firebase"
 import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore'
 import db  from "../../firebase"
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
+import toast from 'react-hot-toast';
 
 
 export default function SigIn() {
@@ -24,9 +25,11 @@ export default function SigIn() {
                 timestamp: serverTimestamp(),
               })
             }
+            toast.success("Logged in Successfully")
             navigate('/')
         }
         catch(err){
+            toast.error("Please Try again")
             console.log(err)
         } 
     }

@@ -13,11 +13,18 @@ import Slogin from './components/school/Slogin';
 import Sprofile from './components/school/Sprofile';
 import Admin from './components/school/Admin';
 import Data from './components/school/Data';
+import { Toaster } from "react-hot-toast";
+
 
 
 function App() {
   return (
     <div className="App">
+    <div>
+          <Toaster
+            position="top-center"
+          />
+    </div>
     <BrowserRouter>
       <Routes>
                 <Route path="/" element={<Home />} />
@@ -39,6 +46,7 @@ function App() {
                 <Route path='/school/dashboard' element={<Sprofile/>} />
                 <Route path='/admin' element={<Admin/>} />
                 <Route path='/admin/school' element={<Data/>} />
+                
                 {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
       </BrowserRouter>

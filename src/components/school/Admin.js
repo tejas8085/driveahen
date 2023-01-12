@@ -34,6 +34,9 @@ export default function Admin() {
         fetchData();
            // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]) 
+    const handlelg=()=>{
+        navigate('/school/login')
+    }
   return (
     <div>
             <div className='mainh'>
@@ -49,6 +52,9 @@ export default function Admin() {
                 })
         
             }
+            </div>
+            <div className='lgb'>
+            <button onClick={handlelg}>Log Out</button>
             </div>
     </div>
   )
