@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react'
 import Navbar from '../Navbar/Navbar'
-import {auth} from "../../firebase"
 import db from "../../firebase"
 import "./slogin.css"
 import {  useNavigate } from 'react-router-dom'
@@ -33,16 +32,17 @@ const handlesub=async()=>{
   });
 }
   return (
-    <div>
+  
+        <div className='Slogin-container'>
         <Navbar></Navbar>
         <div className="container">
-          <div className="screen">
+          <div className="screeen">
             <div className="screen__content">
                 <div className='login'>
                 <div className="login__field">
                   <input type="text" value={email} className="login__input" placeholder="Email" onChange={(e) => setemail(e.target.value)}/>
                 </div>
-                <div className="login__field">
+                <div className="login__field logpass">
                   <input type="password" value={password} className="login__input" placeholder="Password" onChange={(e) => setpassword(e.target.value)}/>
                 </div>
                 <button className="button login__submit" onClick={handlesub}>
@@ -59,6 +59,6 @@ const handlesub=async()=>{
           </div>
         </div>
         <Footer></Footer>
-    </div>
+        </div>
   )
 }

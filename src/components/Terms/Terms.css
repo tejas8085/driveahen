@@ -1,0 +1,139 @@
+#terms-of-service{
+    background: #2a2b2f;
+}
+.cargd {
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    /* height : 1950px; */
+    /* padding-bottom: 1rem; */
+    width: 70rem;
+    border-radius: 30px;
+    background-color: #333541;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primary-heading {
+    text-align: center;
+    /* color: #333541; */
+    color: white;
+    /* font-family: josefin sans; */
+    /* color: white; */
+    padding-top: 1rem ;
+    font-size: 3em;
+}
+
+.paragraph {
+    font-family: josefin sans;
+    color: rgb(179, 179, 179);
+    margin-left: 50px;
+    margin-right: 25px;
+    padding-top: 50px;
+    font-size: 1.4em;
+    /* line-height: 1.3em; */
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 400;
+    color: white;
+}
+@media only screen and (max-width: 1218px) {
+    .cargd {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 1000px;
+        border-radius: 30px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    .cargd {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 800px;
+        border-radius: 30px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .cargd {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 600px;
+        border-radius: 30px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .primary-heading {
+        font-size: 3.5em;
+    }
+
+    .footer-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 626px) {
+    .cargd {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 450px;
+        border-radius: 30px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .main-header {
+        display: none;
+    }
+
+    .primary-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cargd {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 350px;
+        border-radius: 30px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .primary-heading {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .cargd {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 290px;
+        border-radius: 30px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .primary-heading {
+        /* margin-top: 1rem; */
+        font-size: 2em;
+    }
+}

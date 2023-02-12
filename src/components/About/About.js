@@ -19,11 +19,8 @@ export default function About() {
 						learn driving with various services like home pickup and drop and many more</p>
 				</div>
 				<div class="info">
-					<h3>What we do</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rerum, veniam debitis nisi
-						vero sit rem perspiciatis illum illo sint consectetur, quidem eveniet dignissimos ea, ex maxime
-						quasi at harum cumque quas. Possimus natus explicabo quidem veniam deserunt enim tenetur vel ad,
-						corporis modi nulla non perferendis alias minima sed placeat laudantium sunt dolorum dolor.</p>
+					<h3>Why we need AHEN?</h3>
+					<p>Driving schools in every city currently rely on manual processes for booking and scheduling driving lessons, which is causing inefficiencies and a lack of transparency for both the schools and users. This is a problem because it leads to difficulties in coordinating instructors and vehicles, scheduling conflicts, and a lack of real-time information for users on the status of their bookings</p>
 				</div>
 			</div>
 			<div class="image-section">

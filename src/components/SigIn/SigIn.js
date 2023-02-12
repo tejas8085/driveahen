@@ -7,6 +7,7 @@ import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore'
 import db  from "../../firebase"
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
 import toast from 'react-hot-toast';
+import Footer from '../Footer/Footer'
 
 
 export default function SigIn() {
@@ -34,17 +35,19 @@ export default function SigIn() {
         } 
     }
   return (
-    <div>
+    <div className='sour'>
         <Navbar/>
+        <div className='btn-glg'>
         <button className='btng' onClick={handle}>
         <div className="google-btn">
             <div className="google-icon-wrapper">
                 <img alt="google" className="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
             </div>
             <p className="btn-text"><b>Sign in with google</b></p>
-            </div>
+        </div>
         </button>
-        
+        </div> 
+        <Footer/>
     </div>
   )
 }

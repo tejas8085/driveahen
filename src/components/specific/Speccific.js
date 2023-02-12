@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+// import "./Specific.css"
 
 export default function Speccific({ id ,name , address , facilities , email , contact, }) {
   const link=`/book/${id}`
@@ -9,7 +10,7 @@ export default function Speccific({ id ,name , address , facilities , email , co
           <div class="img-container">
             <div class="img-inner">
               <div class="inner-skew">
-                <img alt="school" src="/images/ahenlogo.jpg"/>
+                <img alt="school" src="/images/newlook.jpg"/>
               </div>
             </div>
           </div>

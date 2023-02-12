@@ -21,6 +21,8 @@ export default function Footer() {
             <Link to="/bookings">Bookings</Link>
             
             <Link to="/contact">Contact</Link>
+
+            <Link to="/terms">Terms of service</Link>
         </p>
 
         <p className="footer-company-name">AHEN © 2023</p>
@@ -43,7 +45,6 @@ export default function Footer() {
             <i className="fa fa-envelope"></i>
             <p>ahenbookit@gmail.com</p>
         </div>
-
     </div>
 
     <div className="footer-right">
@@ -52,8 +53,9 @@ export default function Footer() {
             <span>About the company</span>
             Ahen is a driving class booking application where you can book a driving session in 3 taps and learn driving with various services like home pickup and drop and many more.
         </p>
+        
     </div>
-
+    
     </footer>
 
     </div>

@@ -9,9 +9,12 @@
   
 }
 
+
+
   ul.navs {
-    width: 60%;
-    margin-left: 12rem;
+    /* width: 60%;*/
+    /* margin-left: 15rem;  */
+    margin-right: 5rem;
     color: black;
     display: flex;
     align-items: center;
@@ -32,6 +35,8 @@
   }
   ul.navs li:nth-child(2) {
     border-radius: 0;
+    height: 5rem;
+    padding-top: 1.5rem;
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
   }
@@ -44,8 +49,14 @@
   
   .outlet{
     min-height: 500px;
+    position: relative;
   }
 
+.temp{
+    display: flex;
+    justify-content: center;
+}
+  
 
 
 @media (max-width: 1025px) {

@@ -7,7 +7,7 @@
 	min-height: 100vh;
 }
 
-.screen {		
+.screeen {		
 	background: linear-gradient(90deg, #5D54A4, #7C78B8);		
 	position: relative;	
 	height: 35rem;
@@ -139,3 +139,49 @@
 	color: #7875B5;
 }
 
+
+.Slogin-container{
+	/* background-color: #4C489D; */
+	/* height: 36rem; */
+	overflow-x: hidden;
+} 
+
+@media (max-width: 480px){
+	.screeen{
+		width: auto;
+	}
+}
+
+@media (max-width: 430px){
+	.screeen{
+		width: 20rem;
+	}
+	.login__submit{
+		width: auto;
+	}
+	.login__field{
+		padding:20px 0px;
+		position: relative;
+		margin-right: 6rem;
+	}
+	.logpass{
+		margin-right: 11rem;
+	}
+}
+
+@media (max-width: 340px){
+	.screeen{
+		width: 17rem;
+	}
+	.login__submit{
+		width: auto;
+	}
+	.login__field{
+		padding:20px 0px;
+		position: relative;
+		margin-right: 9rem;
+	}
+	.logpass{
+		margin-right: 12rem;
+	}
+} 

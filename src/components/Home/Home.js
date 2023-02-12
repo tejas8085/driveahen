@@ -19,7 +19,7 @@ export default function Home() {
           <div className="card card-1">
             <h2 className="card__title">Download Ahen App from Playstore</h2>
             <p className="card__apply">
-              <Link class="card__link" to="/">Download</Link>
+              {/* <Link class="card__link" to="/">Download</Link> */}
             </p>
           </div>
           <div className="card card-2">
@@ -31,7 +31,8 @@ export default function Home() {
           <div className="card card-3">
             <h2 className="card__title">What is Ahen ?</h2>
             <p className="card__apply">
-              <Link className="card__link" to="/about">About </Link>
+              <Link className="card__link" to="/about">About </Link><br></br>
+              <Link className="card__link" to="/terms">Terms of Service </Link>
             </p>
           </div>
           <div className="card card-4">

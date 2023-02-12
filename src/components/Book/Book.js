@@ -19,6 +19,7 @@ export default function Book() {
     <div>
       <Navbar></Navbar>
         <div className="Tabs">
+        <div className='temp'>
         <ul className="navs">
           <li
             className={activeTab === "tab1" ? "active" : ""}
@@ -33,10 +34,14 @@ export default function Book() {
           Apply for Licence
           </li>
         </ul>
+        </div>
           <div className="outlet">
             {activeTab === "tab1" ? <Bookc id={id} /> : <License id={id} />}
           </div>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
         <Footer></Footer>

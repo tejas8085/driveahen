@@ -5,6 +5,7 @@ import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from "../../firebase";
 
 
+
 export default function Navbar() {
 	const [loginState, setLoginState] = useState(true)
 	
@@ -48,6 +49,7 @@ export default function Navbar() {
 					<li><Link to="/about" style={{ textDecoration: 'none'}}>About</Link></li>
 					<li><Link to="/bookings" style={{ textDecoration: 'none'}}>Bookings</Link></li>
 					<li><Link to="/contact" style={{ textDecoration: 'none'}}>Contact</Link></li>
+					<li><Link to="/terms" style={{ textDecoration: 'none'}}>T&C</Link></li>
 				</ul>
 			</nav>
     </div>

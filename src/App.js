@@ -14,6 +14,8 @@ import Sprofile from './components/school/Sprofile';
 import Admin from './components/school/Admin';
 import Data from './components/school/Data';
 import { Toaster } from "react-hot-toast";
+import Failure from './Failure';
+import Terms from './components/Terms/Terms';
 
 
 
@@ -42,10 +44,12 @@ function App() {
                 <Route path='/cart' element={<PrivateRoute route='/signin' />}>
                 <Route path='/cart' element={<Cart/>} />
                 </Route>
+                <Route path='/terms' element={<Terms/>} />
                 <Route path='/school/login' element={<Slogin/>} />
                 <Route path='/school/dashboard' element={<Sprofile/>} />
                 <Route path='/admin' element={<Admin/>} />
                 <Route path='/admin/school' element={<Data/>} />
+                <Route path='/failure' element={<Failure/>} />
                 
                 {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
