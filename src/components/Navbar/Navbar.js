@@ -28,7 +28,7 @@ export default function Navbar() {
 
 			{!loginState &&
 			 	<div className='rev'>
-                	<Link to="/signin" style={{ textDecoration: 'none',color:'white'}}>Sign IN</Link>
+                	{/* <Link to="/signin" style={{ textDecoration: 'none',color:'white'}}>Sign IN</Link> */}
             	</div>
 			}
 			{loginState &&
